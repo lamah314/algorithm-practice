@@ -20,7 +20,7 @@ package algorithms.easy;
 public class PalindromeNumber {
 	public boolean isPalindrome(int x) {
 		int reverse = 0;
-		int xChange = x; //maintain intial argument x for final check
+		int xChange = x; //maintain initial argument x for final check
 		if (x < 0) {
 			return false;
 		} else {
